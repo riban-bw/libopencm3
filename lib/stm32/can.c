@@ -76,7 +76,7 @@ void can_reset(uint32_t canport)
 
 Initialize the selected CAN peripheral block.
 
-@param[in] canport Unsigend int32. CAN register base address @ref can_reg_base.
+@param[in] canport Unsigned int32. CAN register base address @ref can_reg_base.
 @param[in] ttcm bool. Time triggered communication mode.
 @param[in] abom bool. Automatic bus-off management.
 @param[in] awum bool. Automatic wakeup mode.
